@@ -3,3 +3,8 @@ spring:
     name: sampleprojectmicro
 server:
   port: 8081
+swagger:
+  title: "SampleProjectMicro"
+  description: "SampleProjectMicro API."
+  contact: "Jorge"
+  version: "1.0"
