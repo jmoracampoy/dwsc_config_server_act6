@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: springdatajpa
+  datasource:
+    url: jdbc:postgresql://localhost:5432/dwsc
+    username: estudiante
+    password: estudiante
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+  data:
+    rest:
+      base-path: /api
